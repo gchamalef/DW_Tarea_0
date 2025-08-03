@@ -1,11 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Guillermo Chamal&eacute;</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+
+    <header class="header">
+        <div class="profile-container">
+            <div class="profile-image">👤</div>
+            <div class="profile-info">
+                <h1>Guillermo Chamal&eacute;</h1>
+                <div class="profile-links">
+                    <a href="#">Inicio</a> |
+                    <a href="#">Php</a> |
+                    <a href="#">Net</a> |
+                    <a href="#">Java</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main-container">
+        <section class="languages-section">
+            <h3>Lenguajes de Programación</h3>
+            <div class="languages-list">
+                <div class="language-category">
+                    <h4>1. Páginas Web</h4>
+                    <ul>
+                        <li>🔸 Jsp</li>
+                        <li>🔸 Aspx</li>
+                        <li>🔸 Php</li>
+                    </ul>
+                </div>
+                <div class="language-category">
+                    <h4>2. Aplicaciones</h4>
+                    <ul>
+                        <li>🔸 Java</li>
+                        <li>🔸 Visual Basic</li>
+                        <li>🔸 C#</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="programming-table">
+            <h3>Programación Web</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Asp</th>
+                        <th>Jsp</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Php</td>
+                        <td>Ruby</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Go</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="form-section">
+            <form id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" id="nombres" placeholder="Ingrese Nombres" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="apellidos" placeholder="Ingrese Apellidos" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <input type="tel" id="telefono" placeholder="Ingrese Número Telefónico" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" id="correo" placeholder="Ingrese Correo Electrónico" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="date" id="fechaNacimiento" required>
+                </div>
+
+                <div class="form-group">
+                    <textarea id="mensaje" placeholder="Ingrese el Mensaje"></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Enviar</button>
+            </form>
+        </section>
+
+        <section class="social-links">
+            <h3>Redes Sociales</h3>
+            <div class="social-icons">
+                <a href="#" class="social-icon facebook">f</a>
+                <a href="#" class="social-icon twitter">t</a>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>Aprende a Programar Fácil y Rápido ®</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
